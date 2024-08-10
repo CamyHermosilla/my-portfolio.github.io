@@ -15,7 +15,7 @@
 
 /*FONT AND TYPOGRAPHY*/
 
---body-font: 'Poppins', sans-serif;
+--body-font: 'Urbanist', sans-serif;
 --biggest-font-size: 2.5rem;
 --h1-font-size: 1.5rem;
 --h2-font-size: 1.25rem;
@@ -316,10 +316,11 @@ img{
     transition: .3s;
 }
 .button:hover {
-    background-color: var(--first-color-dark);
+    background-color: var(--first-color-lighten);
 }
 .button-light {
-    background-color: var(--first-color-light);
+    background-color: var(--first-color);
+    color: #fff;
 }
 .button-white {
     background-color: var(--first-color-lighten);
